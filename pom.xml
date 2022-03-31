@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.6.3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>it.napoli.comune</groupId>
+	<artifactId>protocollo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>protocollo</name>
+	<description>Protocollo del comune di napoli</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>it.cdn.protocollo</groupId>
+		    <artifactId>protocollo</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/protocollo.jar</systemPath>
+		</dependency>
+
+		<dependency>
+		    <groupId>json.simple</groupId>
+		    <artifactId>json-simple-1.1.1</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/json-simple-1.1.1.jar</systemPath>
+		</dependency>
+
+
+		<dependency>
+		    <groupId>activation</groupId>
+		    <artifactId>activation</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/activation.jar</systemPath>
+		</dependency>
+
+		<dependency>
+		    <groupId>jaxrpc</groupId>
+		    <artifactId>jaxrpc</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/jaxrpc.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+		    <groupId>axis</groupId>
+		    <artifactId>axis</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/axis.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-discovery-0.2</groupId>
+		    <artifactId>commons-discovery-0.2</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/commons-discovery-0.2.jar</systemPath>
+		</dependency>
+
+		<dependency>
+		    <groupId>saaj</groupId>
+		    <artifactId>saaj</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/saaj.jar</systemPath>
+		</dependency>		
+
+		<dependency>
+		    <groupId>wsdl4j</groupId>
+		    <artifactId>wsdl4j</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/wsdl4j.jar</systemPath>
+		</dependency>
+				
+		<dependency>
+		    <groupId>mailapi</groupId>
+		    <artifactId>mailapi</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>/protocollo/lib/mailapi.jar</systemPath>
+		</dependency>		
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+    				<includeSystemScope>true</includeSystemScope>
+  				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
