@@ -33,7 +33,7 @@
 		    <artifactId>protocollo</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/protocollo.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\protocollo.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -41,7 +41,7 @@
 		    <artifactId>json-simple-1.1.1</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/json-simple-1.1.1.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\json-simple-1.1.1.jar</systemPath>
 		</dependency>
 
 
@@ -50,7 +50,7 @@
 		    <artifactId>activation</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/activation.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\activation.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -58,7 +58,7 @@
 		    <artifactId>jaxrpc</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/jaxrpc.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\jaxrpc.jar</systemPath>
 		</dependency>
 		
 		<dependency>
@@ -66,7 +66,7 @@
 		    <artifactId>axis</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/axis.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\axis.jar</systemPath>
 		</dependency>
 		
 		<dependency>
@@ -74,7 +74,7 @@
 		    <artifactId>commons-discovery-0.2</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/commons-discovery-0.2.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\commons-discovery-0.2.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -82,7 +82,7 @@
 		    <artifactId>saaj</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/saaj.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\saaj.jar</systemPath>
 		</dependency>		
 
 		<dependency>
@@ -90,7 +90,7 @@
 		    <artifactId>wsdl4j</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/wsdl4j.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\wsdl4j.jar</systemPath>
 		</dependency>
 				
 		<dependency>
@@ -98,7 +98,7 @@
 		    <artifactId>mailapi</artifactId>
 		    <version>1.0</version>
 		    <scope>system</scope>
-		    <systemPath>/protocollo/lib/mailapi.jar</systemPath>
+		    <systemPath>C:\Users\salva\Dev\napoliservizi\dev\protocollo\protocollo\lib\mailapi.jar</systemPath>
 		</dependency>		
 
 	</dependencies>
